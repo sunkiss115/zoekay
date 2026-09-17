@@ -28,6 +28,14 @@ Open `http://127.0.0.1:8000` in a browser. Changes to `index.html`, `styles.css`
 
 ## GitHub Pages deployment
 
-The `CNAME` file configures the site for `www.zoekay.com`. In the GitHub repository, open **Settings > Pages**, choose **Deploy from a branch**, select `main` and `/ (root)`, and save.
+The `CNAME` file configures the site for `www.zoekay.com`. In the GitHub repository, open **Settings > Pages**, choose **Deploy from a branch**, select `main` and `/ (root)`, and save. Enter `www.zoekay.com` as the custom domain.
 
-At the domain provider, create a CNAME record for `www` pointing to `sunkiss115.github.io`. Enable **Enforce HTTPS** in GitHub Pages after DNS finishes propagating.
+At the domain provider, create these DNS records:
+
+- `www` CNAME pointing to `sunkiss115.github.io`
+- `@` A pointing to `185.199.108.153`
+- `@` A pointing to `185.199.109.153`
+- `@` A pointing to `185.199.110.153`
+- `@` A pointing to `185.199.111.153`
+
+Remove conflicting A, AAAA, or URL-forwarding records for `@` and `www`. Enable **Enforce HTTPS** in GitHub Pages after DNS finishes propagating.
