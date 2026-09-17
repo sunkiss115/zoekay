@@ -11,8 +11,7 @@ This is the GitHub Pages site for Prof. Kern Tutoring.
 - `script.js` — mobile navigation
 
 ## Important
-The Contact form opens the visitor's email client and addresses the message to
-`zoekern@gmail.com`.
+The Contact page embeds a Google Form for sending messages.
 
 The Schedule a Session page embeds:
 `https://koalendar.com/e/tutoring-with-zoe`
