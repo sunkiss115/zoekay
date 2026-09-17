@@ -14,7 +14,7 @@ This is the GitHub Pages site for Prof. Kern Tutoring.
 The Contact page embeds a Google Form for sending messages.
 
 The Schedule a Session page embeds:
-`https://koalendar.com/e/tutoring-with-zoe`
+`https://koalendar.com/e/tutoring-with-zoe-5`
 
 ## Local development
 
