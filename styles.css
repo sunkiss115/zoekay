@@ -1,0 +1,39 @@
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;color:#18212b;background:#fff;font-family:"DM Sans",sans-serif;font-size:15px;line-height:1.55}
+.container{width:min(1100px,calc(100% - 40px));margin:auto}
+.narrow{max-width:850px}
+.site-header{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.96);border-bottom:1px solid #dde2e7;backdrop-filter:blur(8px)}
+.nav-wrap{min-height:66px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.brand{color:#18212b;text-decoration:none;font-weight:700;font-size:.95rem}
+nav{display:flex;gap:18px;flex-wrap:wrap}
+nav a{color:#5f6b76;text-decoration:none;font-size:.84rem}
+nav a:hover{color:#18212b}
+.menu-toggle{display:none;background:none;border:0;font-size:1.35rem}
+.hero{padding:85px 0 78px;background:#f5f6f7}
+h1,h2{font-family:"Playfair Display",serif;line-height:1.15}
+h1{font-size:clamp(2.35rem,5.5vw,4.25rem);margin:.2em 0}
+h2{font-size:clamp(1.75rem,3.4vw,2.45rem);margin-top:0}
+h3{font-size:1.05rem;margin-top:0}
+p{margin:0 0 1em}
+.section{padding:70px 0}
+.alt{background:#f5f6f7}
+.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.card{border:1px solid #dde2e7;border-radius:16px;padding:24px;background:#fff}
+.button{display:inline-block;padding:11px 17px;border-radius:8px;background:#18212b;color:#fff;text-decoration:none;border:0;cursor:pointer;font:inherit;font-size:.9rem}
+.calendar-wrap{margin-top:24px}
+.calendar-wrap iframe{display:block;width:100%;min-height:700px;border:0;border-radius:16px;background:#fff}
+.calendar-fallback{text-align:center;margin-top:12px}
+.calendar-fallback a{color:#2d5367}
+.contact-form{display:grid;gap:16px;margin-top:22px}
+.contact-form label{display:grid;gap:6px;font-weight:600;font-size:.9rem}
+.contact-form input,.contact-form textarea{width:100%;padding:11px;border:1px solid #cbd2d8;border-radius:8px;font:inherit;font-size:.92rem}
+footer{border-top:1px solid #dde2e7;padding:26px 0;color:#5f6b76;font-size:.85rem}
+@media(max-width:800px){
+  .menu-toggle{display:block}
+  nav{display:none;position:absolute;left:20px;right:20px;top:66px;background:#fff;border:1px solid #dde2e7;border-radius:12px;padding:14px}
+  nav.open{display:grid}
+  .cards{grid-template-columns:1fr}
+  .hero{padding:65px 0}
+  .section{padding:55px 0}
+}
