@@ -10,7 +10,7 @@ nav{display:flex;gap:18px;flex-wrap:wrap}
 nav a{color:#5f6b76;text-decoration:none;font-size:.99rem}
 nav a:hover{color:#18212b}
 .menu-toggle{display:none;background:none;border:0;font-size:1.35rem}
-.hero{padding:52px 0 48px;background:#f5f6f7}
+.hero{padding:52px 0 48px;background:#e9f1f8}
 h1,h2{font-family:"Playfair Display",serif;line-height:1.15}
 h1{font-size:clamp(1.8rem,3.6vw,2.88rem);margin:.2em 0}
 h2{font-size:clamp(1.575rem,3.06vw,2.205rem);margin-top:0}
@@ -20,18 +20,22 @@ h2{font-size:clamp(1.575rem,3.06vw,2.205rem);margin-top:0}
 .home-page #lessons{clear:both}
 .home-page .section p,
 .home-page .section li{font-size:1.1rem}
+.feature-list{list-style:none;padding:0;margin:0 0 1.25em}
+.feature-list li{position:relative;padding-left:1.6em;margin:0 0 0.35em;line-height:1.45}
+.feature-list li::before{content:"";position:absolute;left:0.25em;top:0.68em;width:0.35em;height:0.35em;border-radius:50%;background:#2d5876}
+#lessons p br{display:block;margin-bottom:0.45em;content:""}
 h3{font-size:.945rem;margin-top:0}
 .cards h3{font-size:1.134rem}
 p{margin:0 0 1em}
 .section{padding:44px 0}
-.alt{background:#f5f6f7}
+.alt{background:#e9f1f8}
 .about-photo,.home-photo{float:left;width:220px;margin:0 26px 14px 0}
 .about-photo img,.home-photo img{display:block;width:100%;height:auto;aspect-ratio:4 / 3;object-fit:contain;image-rendering:auto;border-radius:12px}
 .cards{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
 .card{border:1px solid #dde2e7;border-radius:16px;padding:20px;background:#fff}
 .button{display:inline-block;padding:11px 17px;border-radius:8px;background:#18212b;color:#fff;text-decoration:none;border:0;cursor:pointer;font:inherit;font-size:.81rem}
-.schedule-note{margin:0 0 16px;padding:14px 16px;border:1px solid #bfd3df;border-left:5px solid #2d5367;border-radius:12px;background:#edf7fb;color:#18212b;font-weight:700;line-height:1.5;font-size:1rem}
-.schedule-note a{color:#1b4d63;text-decoration:underline}
+.schedule-note{margin:0 0 16px;padding:14px 16px;border:1px solid #c4d7ea;border-left:5px solid #2d5876;border-radius:12px;background:#edf5fb;color:#18212b;font-weight:700;line-height:1.5;font-size:1rem}
+.schedule-note a{color:#214f72;text-decoration:underline}
 .calendar-wrap{margin-top:24px}
 .calendar-wrap iframe{display:block;width:100%;min-height:700px;border:0;border-radius:16px;background:#fff}
 .calendar-fallback{text-align:center;margin-top:12px}
