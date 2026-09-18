@@ -18,7 +18,8 @@ h2{font-size:clamp(1.575rem,3.06vw,2.205rem);margin-top:0}
 .home-page .hero{padding:28px 0 24px}
 .home-page .section{padding:16px 0}
 .home-page #lessons{clear:both}
-.home-page .section p{font-size:1.1rem}
+.home-page .section p,
+.home-page .section li{font-size:1.1rem}
 h3{font-size:.945rem;margin-top:0}
 .cards h3{font-size:1.134rem}
 p{margin:0 0 1em}
